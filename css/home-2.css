@@ -1,0 +1,610 @@
+.dropdown-menu > li > a{
+    color: #333 !important;
+}
+.carousel-caption p span{
+    background-color: #333 !important;
+}
+/* Slider */
+.m-home .b-slider__info h2{
+    line-height: 1!important;
+}
+.m-home .find .container > h1 {
+    text-transform: uppercase;
+    font: 700 20px 'Open Sans',sans-serif;
+    text-align: center;
+    margin: 45px 0 40px 0;
+}
+.m-home .find__main-type >h4{
+    text-align: center;
+}
+.m-home .find__main-type >h4:before {
+    height: 1px;
+    width: 70%;
+    left: 15%;
+    border-bottom: 1px solid #B4B4B4;
+    content: '';
+    position: absolute;
+    top: 100%;
+    display: block;
+}
+/* Search */
+.m-home .find__main{
+    margin-top: 0;
+    height:320px;
+}
+
+.m-home .find .container > h1{
+    text-transform: uppercase;
+    font: 700 20px 'Open Sans',sans-serif;
+    text-align: center;
+    margin: 45px 0 40px 0;
+}
+
+.m-home .find__main-type >h4{
+    text-transform: uppercase;
+    font: 600 12px 'Open Sans',sans-serif;
+    margin:0 0 45px 0;
+    padding-bottom: 20px;  
+    position: relative;
+    display: inline-block;
+    color: #f76d2b;
+}
+
+.m-home .find__main-type >h4:before{
+    height:1px;
+    width: 70%;
+    left:15%;
+    border-bottom: 1px solid #B4B4B4;
+    content: '';
+    position: absolute;
+    top: 100%;
+    display: block;
+}
+
+.m-home .find__main-type >h4:after{
+    background: url(../img/chevron-down.png) center no-repeat;
+    width: 100%;
+    height: 7px;
+    content: '';
+    position: absolute;
+    top: 100%;
+    display: block;
+}
+
+/* World */
+.m-home .world{
+    padding-top: 150px;
+    padding-bottom: 35px;
+    background: none;
+}
+
+.m-home .world:after{
+    display: none;
+}
+
+/* Featured */
+.m-home .features{
+    padding-top: 65px;
+    padding-bottom: 70px;
+    background: url(../img/featured.jpg);
+    background-size: cover;
+}
+
+.m-home .features:after{
+    display: none;
+}
+
+
+.m-home .features__item > a{
+    margin-bottom: 0;
+    height:125px;
+}
+
+.m-home .features__item > a img{
+    margin-top: 10px;
+}
+
+.m-home .features__item-price{
+    margin-left: 0;
+}
+
+.m-home .features__item h5{
+    padding-left: 0;
+    padding-bottom: 35px;
+    border-bottom: none;
+    background: url(../img/line.png) left bottom no-repeat;
+}
+
+.m-home .features__item h5:after{
+    display: none;
+}
+
+.m-home .features__item .m-premium,.m-home .features__item .m-leasing{
+    top:13px;
+    right:10px;
+}
+
+/* Welcome */
+.m-home .welcome{
+    background-image: none;
+}
+
+.m-home .welcome__services{
+    margin: 0;
+}
+
+.m-home .welcome__services-auto,.m-home .welcome__services-buying{
+    width:220px;
+}
+
+.m-home .welcome__services-trade,.m-home .welcome__services-support{
+    width:220px;
+    float:right;
+}
+
+.m-home .m-circle{
+    width:220px;
+}
+
+.m-home .welcome__services-circle{
+    margin-right: -18px;
+    z-index:1000;
+    position: relative;
+}
+
+.m-home .welcome__services-circle.m-left{
+    margin-left: -18px;
+    margin-right: 0;
+}
+
+.m-home .welcome__text{
+    margin-top: 25px;
+}
+
+/* Home Auto */
+.m-home .auto{
+    padding: 90px 0;
+    position: relative;
+    box-shadow: 0px 30px 100px -38px rgba(0,0,0,0.3);
+    z-index:100;
+}
+
+.m-home .auto__latest{
+    text-align: center;
+    margin-right: 15px;
+}
+
+.m-home .auto__world{
+    text-align: center;
+     margin-left: 15px;
+}
+
+.m-home .auto__world-item{
+    margin-bottom: 85px;
+}
+
+.m-home .auto__world-item-info{
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #B4B4B4;
+    position: relative;
+    min-height:150px;
+}
+
+
+.m-home .auto__world-item-info:after{
+    background: url(../img/chevron-down.png) center no-repeat;
+    width: 15px;
+    left: 20px;
+    height: 7px;
+    content: '';
+    position: absolute;
+    top: 100%;
+    display: block;
+}
+
+.m-home .auto__world-item-info > h2{
+    margin: 0 0 25px 0;
+    font: 600 16px 'Open Sans',sans-serif;
+    padding: 0 0 0 15px;
+    text-align: left;
+    position: relative;
+}
+
+.m-home .auto__world-item-info > h2 a{
+    text-decoration: none;
+    color: #000;
+}
+.b-world__item-val-circles span {
+    background-color: #5d5d5d;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+.b-world__item-val-circles span.m-empty {
+    border: 1px solid #dddddd;
+    background: none!important;
+}
+.m-home .auto__world-item-info > h2:before{
+    height:20px;
+    border-left: 3px solid #f76d2b;
+    position: absolute;
+    left:0;
+    top:0;
+    content:'';
+}
+span.b-world__item-num{
+    background-color: #f76d2b;
+    color: #FFF;
+    display: inline-block;
+    padding: 3px 12px;
+    border-radius: 13px;
+    font: 400 10px 'Open Sans',sans-serif;
+    border: 1px solid #dddddd;
+    margin-left: 10px;
+}
+.m-home .b-world__item-val{
+    margin-bottom: 0;
+    text-align: left;
+    color: #999;
+    margin: 25px 0 10px 0;
+    text-align: left;
+}
+.b-auto__main-item.wow.zoomInUp h2 {
+    margin: 0 0 25px 0;
+    font: 600 16px 'Open Sans',sans-serif;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.b-auto__main-item.wow.zoomInUp h2 a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+.b-auto__main-item-info{
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.b-auto__main-item.wow.zoomInUp .m-price{
+    background-color: #f76d2b;
+    padding: 3px 7px;
+    font: 700 20px 'PT Sans',sans-serif;
+    float: left;
+    color: #FFF;
+}
+.b-auto__main-item.wow.zoomInUp .m-number{
+    color: #999;
+    padding: 5px 0 5px 0;
+    font: 600 12px 'Open Sans',sans-serif;
+    float: right;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 2px;
+}
+.b-auto__main-item.wow.zoomInUp .m-number span.fa{
+color: #999;
+font-size: 18px;
+margin-right: 5px;
+}
+.b-auto__main-item{
+padding-bottom: 25px;
+border-bottom: 1px solid #B4B4B4;
+position: relative;
+margin-bottom: 50px;
+}
+.b-auto__main-item:after {
+    background: url(../img/chevron-down.png) center no-repeat;
+    width: 15px;
+    left: 20px;
+    height: 7px;
+    content: '';
+    position: absolute;
+    top: 100%;
+    display: block;
+}
+.m-home .b-world__item-val-circles{
+    display: inline-block;
+    margin: 25px 0 10px 0;
+    text-align: left;
+}
+
+.m-home .auto__world-item-text span{
+    text-align: left;
+    font: 700 10px 'Open Sans',sans-serif;
+    color: #999;
+}
+.auto__world-item-text{
+    text-align: left;
+}
+.m-home .auto__world-item-text p{
+    color:666;
+    margin-top: 15px;
+    font: 300 13px 'Open Sans',sans-serif;
+}
+span.b-world__item-val-title,span.b-world__item-val-title span{
+    font-size: 10px;
+    color: #999;
+}
+span.b-world__item-val-title span{
+    font-weight: bold;
+}
+.m-home .auto__world > a{
+    font: 600 10px 'Open Sans',sans-serif!important;
+    text-transform: uppercase;
+    border: 1px solid #dddddd;
+    padding: 3px 3px 3px 15px;
+    float: right;
+    margin-top: -20px;
+    background-color: #FFF;
+    color: #555;
+}
+
+.m-home .auto__world > a span.fa{
+    width:25px;
+    height:25px;
+    font-size:14px;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: #555;
+    color: #FFF;
+}
+
+.m-home .auto__world > a:hover{
+    background: #f76d2b;
+    color:#fff;
+    border-color: #f76d2b;
+}
+
+.m-home .auto__world > a:hover span.fa{
+    background: #fff;
+    color:#555;
+    
+}
+
+/* Count */
+.m-home .count{
+    background: url(../img/homeCount.jpg) right bottom no-repeat !important;
+    background-color: #f5f5f5 !important;
+}
+.m-home .count .m-main {
+    background-color: #f5f5f5;
+}
+.m-home .count__item-circle{
+    width:120px;
+    height:120px;
+}
+
+.m-home .count__item h5{
+    font-weight:600;
+}
+
+/* Home Reviews */
+.m-home .b-homeReviews{
+    padding: 70px 0 85px 0;
+    background:url(../img/homeReviews.jpg) top center no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.m-home .b-homeReviews__main{
+    text-align: left;
+    margin: 0 15px;
+}
+
+.m-home .b-homeReviews__main-body{
+    height:222px;
+    padding: 35px;
+    position: relative;
+    cursor:pointer;
+}
+
+.m-home .b-homeReviews__main-body p{
+    visibility: hidden;
+    z-index:100000;
+    position: relative;
+    font-family:'Playfair Display',serif;
+    font-weight:normal;
+    font-style: italic;
+}
+
+.m-home .b-homeReviews__main-body:after{
+    content:'';
+    background:rgba(247,109,43,0.9) ;
+    height:100%;
+    width:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    display: none;
+}
+
+.m-home .b-homeReviews__main-body:hover:after{
+    display: block;
+}
+
+.m-home .b-homeReviews__main-body:hover p{
+    visibility: visible;
+}
+
+.m-home .b-homeReviews__main-body.m-jaguarRev{
+    background: url(../img/jaguarRev.jpg) no-repeat;
+    background-size: cover;
+}
+
+.m-home .b-homeReviews__main-body.m-bmw{
+    background: url(../img/bmwRev.jpg) no-repeat;
+    background-size: cover;
+}
+
+.m-home .b-homeReviews__main-person{
+    margin-top: 25px;
+    padding-left: 35px;
+}
+
+.m-home .b-homeReviews__main-person-name{
+    position: relative;
+    float:left;
+}
+
+.m-home .b-homeReviews__main-person-name h4{
+    font: 700 12px 'Open Sans',sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    padding-left: 25px;
+}
+
+.m-home .b-homeReviews__main-person-name p{
+    margin: 0;
+    font: 400 12px 'Open Sans',sans-serif;
+    padding-left: 25px;
+}
+
+.m-home .b-homeReviews__main-person-name em{
+    position: absolute;
+    font-size: 60px;
+    top:0;
+    left:0;
+    font-style: italic;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    line-height:50px;
+}
+
+.m-home .b-review__main-person{
+    height:85px;
+    width:85px;
+    margin-right: 40px;
+    margin-top: -60px;
+    overflow: hidden;
+    float: left;
+    border-radius: 100%;
+    border: 2px solid #ededed;
+    text-align: center;
+    position: relative;
+    background-color: #FFF;
+}
+
+.m-home .b-review__main-person-inside{
+    height:75px;
+    width:75px
+}
+
+.m-home .b-review__main-person-inside.m-personTwo{
+    background: url(../img/person2.jpg) center center no-repeat;
+    border-radius: 100%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.m-home .b-review__main-person-inside.m-personThree{
+    background: url(../img/person3.jpg) center center no-repeat;
+    border-radius: 100%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Asks */
+.m-home .ask{
+    padding: 90px 0 100px 0;
+    position: relative;
+    border-bottom: 1px solid #eeeeee;
+    text-align: center;
+}
+
+.m-home .ask:after{
+    background: url(../img/chevron-downHome.png) center no-repeat;
+    width: 100%;
+    height: 12px;
+    content: '';
+    position: absolute;
+    top: 100%;
+    display: block;
+}
+
+.m-home .ask__first-info{
+    text-align: left;
+}
+
+/* Partners */
+.m-home .b-partners{
+    padding: 80px 0 120px 0;
+    text-align: center;
+}
+.m-home .b-partners h1.s-title{
+    margin-bottom: 20px;
+}
+.b-brands__brand {
+    margin: 0 30px;
+    display: inline-block;
+}
+/* Info */
+.m-home .info__aside{
+    margin-top: -80px;
+    padding-bottom: 20px;
+}
+
+.m-home .info__aside p span{
+    margin: 0 5px;
+}
+
+.m-home .info__contacts,.m-home .info__map{
+    margin-left: 60px;
+}
+
+.m-home .info__latest-article-info h6{
+    margin-bottom: 0;  
+}
+
+.m-home .info__latest-article-info p{
+    margin-top: 5px;
+}
+
+.m-home .info__latest-article{
+    padding-bottom: 10px;
+}
+
+/* Footer */
+.m-home .b-footer{
+   position: relative; 
+}
+
+.m-home .b-footer__toTop{
+    width:45px;
+    height:45px;
+    border-radius: 100%;
+    background: #333333;
+    position: absolute;
+    right:10%;
+    top:-22.5px;
+    display: inline-block;
+}
+
+.m-home .b-footer__toTop-inside{
+    display: inline-block;
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    margin: auto;
+    width:35px;
+    height:35px;
+    border-radius: 100%;
+    font-size:20px;
+    padding: 2px;
+}

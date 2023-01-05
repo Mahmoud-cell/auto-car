@@ -1,0 +1,61 @@
+.b-error h1 {
+    font: 800 44px 'Open Sans',sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 0 0 10px 0;
+    color: #666666;
+}
+.s-shadow.b-breadCumbs {
+    box-shadow: 0px 30px 50px -24px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+.b-error h2 {
+    font: 700 40px 'Open Sans',sans-serif;
+    margin: 25px 0 60px 0;
+    display: inline-block;
+    padding: 0 30px 50px 30px;
+    text-transform: uppercase;
+    color: #f76d2b;
+}
+.b-error p {
+    font: 600 14px 'Open Sans',sans-serif;
+    margin: 0 0 90px 0;
+}
+.b-error .b-blog__aside-search {
+    max-width: 620px;
+    margin: 0 auto;
+}
+.b-blog__aside-search input[type='text'] {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    font: 400 12px 'Open Sans',sans-serif;
+    border: 1px solid #eeeeee;
+    border-radius: 30px;
+    color: #999;
+}
+.b-blog__aside-search input[type='text']:focus {
+    outline: none;
+}
+.b-blog__aside-search button {
+    background: transparent;
+    position: absolute;
+    border: none;
+    display: inline-block;
+    top: 50%;
+    font-size: 16px;
+    margin-top: -12px;
+    right: 15px;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+.b-blog__aside-search button span{
+    color: #999;
+}
+.b-blog__aside-search > div {
+    position: relative;
+}

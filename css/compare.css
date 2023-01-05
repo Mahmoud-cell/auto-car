@@ -1,0 +1,321 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+ - Page Header
+ - Info Bar
+ - Compare
+
+- Author:  Andrey Sokoltsov
+- Profile:	http://themeforest.net/user/andreysokoltsov
+
+-------------------------------------------------------------------*/
+/*Page Header */
+.b-pageHeader{
+    padding: 40px 0;
+    background: url(../img/pageHead.jpg) center;
+    background-size: cover;
+}
+
+.b-pageHeader h1{
+    font:700 30px 'PT Sans',sans-serif;
+    float:left;
+    margin: 0;
+    color: white;
+}
+
+.b-pageHeader__search{
+    padding:10px 15px ;
+    float:right;
+    background-color: #f76d2b;
+}
+
+.b-pageHeader__search h3{
+    font: 400 13px 'Open Sans',sans-serif;
+    margin: 0;
+    padding: 3px 10px;
+    border-left:3px solid #fff;
+    border-right:3px solid #fff;
+    color: white;
+}
+
+/* Bread Cumbs */
+.b-breadCumbs{
+    padding: 20px 0;
+}
+.b-breadCumbs__page:hover{
+    color: #999;
+}
+.b-breadCumbs__page.m-active:hover{
+    color: #545454;
+}
+.b-breadCumbs__page{
+    font: 400 11px 'Open Sans',sans-serif;
+    color: #999;
+}
+a.b-breadCumbs__page.m-active{
+    color: #545454;
+}
+.b-breadCumbs span.fa{
+    font-size:11px;
+    margin: 0 10px;
+    color: #545454;
+}
+
+/* Info Bar */
+.b-infoBar {
+    background: #f5f5f5;
+}
+.b-infoBar .btn.m-btn{
+    border:1px solid #DDD;
+    font: 700 10px 'Open Sans',sans-serif;
+    margin-left: 8px;
+    float: right;
+}
+.b-infoBar .btn.m-btn:hover{
+    border: 1px solid #f76d2b;
+}
+.b-infoBar__btns.wow.zoomInUp{
+    float: right;
+}
+.btn.m-btn.m-infoBtn span.fa {
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    padding: 2px;
+    margin-left: 15px;
+}
+.s-whiteShadow:after {
+    left: 0;
+    content: '';
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 17px;
+    background: url(../img/whiteShadow.png) center bottom no-repeat;
+    z-index: 1000;
+}
+.s-titleDet {
+    font: 700 14px 'Open Sans',sans-serif;
+    text-transform: uppercase;
+    padding-left: 12px;
+    border-left: 4px solid #f76d2b;
+    color: #202020;
+}
+.s-titleDet i{
+
+}
+.m-compare .b-infoBar h5{
+    font: 600 14px 'Open Sans',sans-serif;
+    margin: 5px 0 0 0;
+}
+
+.m-compare .b-infoBar h5 span{
+    font: 700 16px 'Open Sans',sans-serif;
+}
+
+.m-compare .b-infoBar {
+    padding: 30px 0 25px 0;
+}
+
+/* Compare */
+.b-compare{
+    padding: 65px 0 155px 0;
+}
+
+.b-compare__images{
+    margin-bottom: 45px;
+}
+
+.b-compare__images-item{
+    padding-bottom: 30px;
+}
+
+.b-compare__images-item h3{
+    color: #212121;
+    font: 700 16px 'Open Sans',sans-serif;
+    text-align: center;
+    margin: 0 0 25px 0;
+    text-transform: uppercase;
+}
+
+.b-compare__images-item-price{
+    text-align: center;
+    padding: 8px 0;
+    font: 700 20px 'PT Sans',sans-serif;
+    margin-top: 20px;
+    height:38px;
+    position: relative;
+    background-color: #f76d2b;
+    color:#FFF;
+}
+.b-compare__images-item-price-vs{
+    background-color: #555;
+    color: #FFF;
+}
+.b-compare__images-item-price-vs{
+    width:50px;
+    height:50px;
+    position: absolute;
+    border-radius: 100%;
+    border:10px solid #fff;
+    font: 600 13px 'Open Sans',sans-serif;
+    padding-top: 5px;
+    left:100%;
+    margin-left: -8px;
+    top:50%;
+    margin-top: -25px;
+    z-index: 10000;
+}
+
+.b-compare__block{
+    margin-bottom: 40px;
+}
+
+.b-compare__block-title{
+    padding: 13px 78px 13px 15px;
+}
+
+.b-compare__block h3{
+    margin: 0;
+}
+
+.b-compare__block-title{
+     position: relative;
+     height:46px;
+     background: #f5f5f5;
+}
+
+.b-compare__block-title > a{
+    color:#fff;
+    position: absolute;
+    right:0;
+    top:0;
+    display: inline-block;
+    border-bottom: 46px solid #f76d2b;
+	border-left: 28px solid transparent;
+	height: 0;
+	width: 80px;
+}
+
+.b-compare__block-title > a i.fa{
+    margin: 15px 0 0 25px;
+}
+
+.b-compare__block-title.m-active > a{
+    border-bottom-color:#555;
+}
+
+.b-compare__block-inside{
+    margin-top: 35px;
+    display: none;
+}
+
+.j-inside.m-active{
+    display: block;
+}
+
+.b-compare__block-inside-title{
+    text-align: right;
+    font: 600 13px 'Open Sans',sans-serif;
+    padding-right: 45px;
+    padding-bottom: 10px;
+}
+
+.b-compare__block-inside-value{
+    font: 300 13px 'Open Sans',sans-serif;
+    text-align: left;
+    padding-left: 45px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.b-compare__block-inside > .row{
+    margin-bottom: 10px;
+}
+
+.b-compare__block-inside-value ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    height:220px;
+}
+
+.b-compare__block-inside-value ul li{
+    margin-bottom: 8px;
+}
+
+.b-compare__block-inside-value ul li span.fa{
+    font-size:16px;
+    margin-right: 10px;
+}
+
+.b-compare__block-inside-value a.btn{
+    padding-left: 20px;
+}
+
+.b-compare__block-inside-value a.btn span.fa{
+    width:25px;
+    height:25px;
+}
+
+.b-compare__links{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.b-compare__links a.btn.m-btn{
+    font: 600 11px 'Open Sans',sans-serif;
+    border:1px solid #dddddd;
+    padding-left: 20px;
+}
+
+.b-compare__links a.btn.m-btn span.fa{
+    width:25px;
+    height:25px;
+    font-size:14px;
+    padding:5px;
+    margin-left: 15px;
+    background-color: #f76d2b;
+}
+.b-compare__links a.btn.m-btn:hover{
+    border: 1px solid #f76d2b;
+}
+.b-compare__links a.btn.m-btn:hover span.fa{
+    background-color: #fff ;
+}
+@media screen and (max-width: 599px)
+{
+.b-infoBar > .container > .row > div {
+    width: 100%;
+    padding: 0 40px 0 15px;
+    box-sizing: border-box;
+    margin: 0;
+}
+}
+@media screen and (max-width: 767px)
+{
+.b-compare__links a.btn.m-btn {
+    margin-bottom: 10px;
+}
+.b-compare__images-item {
+    margin-bottom: 20px;
+}
+.b-compare__images-item-price-vs{
+    display: none;
+}
+.m-compare .b-infoBar h5 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.m-compare .b-infoBar__btns{
+    text-align: center;
+    float: none;
+}
+.b-infoBar .btn.m-btn{
+    float: none;
+}
+.b-infoBar__btns.wow.zoomInUp{
+    float: none;
+}
+
+}

@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){$(".spinner").hide();$(window).load(function(){setTimeout(function(){$('.spinner').fadeOut('slow',function(){});},2000);});});

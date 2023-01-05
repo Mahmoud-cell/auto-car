@@ -1,0 +1,166 @@
+.b-contacts__form-header {
+    padding-bottom: 20px;
+    margin: 10px 0 45px 0;
+}
+.s-lineDownLeft {
+    text-align: left;
+    border-bottom: 1px solid #B4B4B4;
+    position: relative;
+}
+.s-shadow.b-breadCumbs {
+    box-shadow: 0px 30px 50px -24px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+.s-titleDet {
+    font: 700 14px 'Open Sans',sans-serif;
+    text-transform: uppercase;
+    padding-left: 12px;
+    border-left: 4px solid #f76d2b;
+    margin-bottom: 25px;
+    color: #202020;
+}
+.b-contacts__form-header h2 {
+    text-transform: none;
+    font-size: 22px;
+    margin: 0;
+}
+.s-relative {
+    position: relative;
+}
+.s-form select {
+    width: 100%!important;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font: 400 10px 'Open Sans',sans-serif!important;
+}
+
+select.m-select {
+    width: 125px;
+    padding: 12px 0 12px 20px;
+    border: 1px solid #eeeeee;
+    border-radius: 30px;
+    font: 400 13px 'Open Sans',sans-serif;
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none!important;
+    color: #999;
+}
+select.m-select + span.fa {
+    top: 15px;
+    right: 17px;
+    position: absolute;
+}
+.s-form select + span.fa-caret-down {
+    right: 25px!important;
+    color: #555;
+}
+.s-lineDownLeft:after {
+    background: url(../img/chevron-down.png) center no-repeat;
+    width: 15px;
+    left: 5%;
+    height: 7px;
+    content: '';
+    position: absolute;
+    top: 100%;
+    display: block;
+}
+.s-form input[type='text'], .s-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    font: 400 10px 'Open Sans',sans-serif;
+    border: 1px solid #eeeeee;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+input:focus, textarea:focus, select.m-select:focus{
+    outline: 0;
+}
+.b-contacts__form textarea {
+    height: 140px;
+}
+.s-form textarea {
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.s-form button[type='submit'] {
+    font: 700 12px 'Open Sans',sans-serif;
+    padding-left: 20px;
+    margin-top: 25px;
+    background-color: #f76d2b;
+    color: #FFF;
+}
+.s-form button[type='submit'] span {
+    background-color: #FFF !important;
+    color: #555 !important;
+}
+.s-form .btn.m-btn:hover {
+    color: #FFF;
+    background-color: #555;
+}
+.s-form .btn.m-btn:hover span.fa {
+    color: #FFF !important;
+    background-color: #f76d2b !important;
+}
+.b-contacts {
+    padding: 75px 0 140px 0;
+}
+.s-shadow {
+    position: relative;
+    box-shadow: 0px 30px 100px -38px rgba(0,0,0,0.3);
+    z-index: 100;
+}
+.s-form button[type='submit'] span.fa {
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.b-contacts__address-hours-main, .b-contacts__address-info-main {
+    padding: 35px;
+    background-color: #f5f5f5;
+}
+.b-contacts__address-hours-main h5 {
+    font: 700 13px 'Open Sans',sans-serif;
+    margin: 0 0 10px 0;
+    color: #555;
+}
+.b-contacts__address-hours-main p {
+    font: 400 13px 'Open Sans',sans-serif;
+    color: #999;
+}
+.b-contacts__address-hours {
+    margin-bottom: 45px;
+}
+.b-contacts__address-info-main-item {
+    font: 700 13px 'Open Sans',sans-serif;
+    margin-bottom: 20px;
+    color: #555;
+}
+.b-contacts__address-info-main-item p {
+    font: 400 13px 'Open Sans',sans-serif;
+    margin: 5px 0 10px 30px;
+    color: #999;
+}
+.b-contacts__address-info-main-item em {
+    font: 400 13px 'Open Sans',sans-serif;
+    color: #999;
+    font-style: normal;
+}
+.b-contacts__address-info-main-item span.fa-envelope, .b-contacts__address-info-main-item span.fa-fax {
+    font-size: 14px;
+}
+.b-contacts__address-info-main-item span.fa {
+    font-size: 16px;
+    margin-right: 10px;
+}
+@media screen and (max-width: 599px)
+{
+    .b-contacts > .container > .row > div {
+        width: 100%;
+    }
+}
